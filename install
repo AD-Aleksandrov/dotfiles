@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# vim
+cp vim/vimrc ~/.vimrc
+
+# tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tmux-resurrect.git ~/.tmux/plugins/tmux-resurrect
+git clone https://github.com/tmux-plugins/tmux-continuum ~/.tmux/plugins/tmux-continuum
+cp tmux/tmux.conf ~/.tmux.conf
+
+# zsh
+mkdir -p ~/.antigen
+curl -L git.io/antigen > ~/.antigen/antigen.zsh
+cp zsh/zshrc ~/.zshrc
+
+# git
+cp git/gitconfig ~/.gitconfig
+

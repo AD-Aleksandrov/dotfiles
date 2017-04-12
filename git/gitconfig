@@ -1,0 +1,5 @@
+[user]
+	name = AD-Aleksandrov
+	email = aleksandr.aleksandrov@emlid.com
+[push]
+	default = matching
