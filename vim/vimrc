@@ -1,3 +1,18 @@
+" Specify a directory for plugins
+" - For Neovim: ~/.local/share/nvim/plugged
+" - Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.vim/plugged')
+
+Plug 'dikiaap/minimalist'
+
+" Initialize plugin system
+call plug#end()
+
+" highlighting
+set t_Co=256
+syntax on
+colorscheme minimalist
+
 " global preferences "
 set nu
 set termencoding=utf-8 
@@ -28,9 +43,5 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-
-" highlighting
-syntax on
-set hlsearch
 
 filetype indent on
