@@ -3,3 +3,5 @@
 	email = aleksandr.aleksandrov@emlid.com
 [push]
 	default = matching
+[core]
+	editor = vim
